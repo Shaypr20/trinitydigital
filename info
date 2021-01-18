@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Описание скрипта</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	
+	<style>
+		*{font-size:15px;font-family:Arial, sans-serif; line-height:23px;}
+	</style>
+</head>
+<body>
+	
+</body>
+</html>
+
+
+<p>Добрый день.</p>
+
+<p>
+	Для теста зарегистрировал аккаунт в Битрикс24 и поменял дедлайны двух дефолтных задач.<br>
+	Скрипт получает данные на основе созданного входящего вебхука (метод <b>task.item.list</b>):
+</p>
+
+<ul>
+	<li>Дергаем URL методом curl</li>
+	<li>Получаем список задач</li>
+	<li>Фильтруем по статусу (STATUS)</li>
+	<li>Выдаем на экран список просрочек</li>
+</ul>
+
+<p>
+	Результат работы скрипта:
+	<a href="https://vosmedia.ru/get_bitrix/">https://vosmedia.ru/get_bitrix/</a>
+	<br>
+	
+	Адрес вебхука:
+	<a href="https://vosmedia.bitrix24.ru/rest/1/vu91ejw3lj5i42ir/task.item.list.json">
+		https://vosmedia.bitrix24.ru/rest/1/vu91ejw3lj5i42ir/task.item.list.json
+	</a>
+</p>
